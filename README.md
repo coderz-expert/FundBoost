@@ -10,14 +10,14 @@ NEXT_PUBLIC_ADDRESS:  // when you run npx hardhat deploy scripts/deploy.js , you
 NEXT_PUBLIC_IPFS_ID=   // please IPFS id and key 
 NEXT_PUBLIC_IPFS_KEY=
 ```
-First, run the commands:
+run the following commands:
 
 ```bash
 npm install
 npx hardhat compile
 npx hardhat deploy scripts/deploy.js
 ```
-thaen Start server from following run this command:
+then Start server from  run this command:
 ```bash
 npm run dev
 ```
