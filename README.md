@@ -1,28 +1,28 @@
 This is a Dapp application based on the Ethereum blockchain, utilizing the Sepolia network.
 ## Getting Started
 
-update the env.local files :
+Before you begin, make sure to update the `env.local` files with the following configurations:
 ```bash
-NEXT_PUBLIC_RPC_URL=     //adding RPC uRL, you can create account from alchemy.com and crete project after that you will get RPC url 
-NEXT_PUBLIC_PRIVATE_KEY=  //add you private key , you can get from Metamask, click to account ->click on menu(3 dot button)->Account details-> click on show Private Key
+NEXT_PUBLIC_RPC_URL=     // Add the RPC URL here. You can create an account from alchemy.com and create a project. After that, you will receive the RPC URL.
+NEXT_PUBLIC_PRIVATE_KEY=  // Add your private key here. You can get it from Metamask by clicking on your account, then on the menu (3-dot button), selecting Account details, and clicking on show Private Key.
 DEFAULT_NETWORK=sepolia
-NEXT_PUBLIC_ADDRESS:  // when you run npx hardhat deploy scripts/deploy.js , you will get Public address of contract
-NEXT_PUBLIC_IPFS_ID=   // please add IPFS id and key 
+NEXT_PUBLIC_ADDRESS=  // When you run `npx hardhat deploy scripts/deploy.js`, you will receive the public address of the contract.
+NEXT_PUBLIC_IPFS_ID=   // Please add IPFS id and key.
 NEXT_PUBLIC_IPFS_KEY=
 ```
-run the following commands:
+Once you've updated the configurations, run the following commands:
 
 ```bash
 npm install
 npx hardhat compile
 npx hardhat deploy scripts/deploy.js
 ```
-then Start server from  run this command:
+After deploying the contracts, start the server by running the following command:
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can now view the result by opening http://localhost:3000 in your browser.
 
 
 
