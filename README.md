@@ -7,7 +7,7 @@ NEXT_PUBLIC_RPC_URL=     //adding RPC uRL, you can create account from alchemy.c
 NEXT_PUBLIC_PRIVATE_KEY=  //add you private key , you can get from Metamask, click to account ->click on menu(3 dot button)->Account details-> click on show Private Key
 DEFAULT_NETWORK=sepolia
 NEXT_PUBLIC_ADDRESS:  // when you run npx hardhat deploy scripts/deploy.js , you will get Public address of contract
-NEXT_PUBLIC_IPFS_ID=   // please IPFS id and key 
+NEXT_PUBLIC_IPFS_ID=   // please add IPFS id and key 
 NEXT_PUBLIC_IPFS_KEY=
 ```
 run the following commands:
